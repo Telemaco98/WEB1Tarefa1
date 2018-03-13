@@ -1,6 +1,7 @@
 body {
 	margin: 0 !important; 
 	font-family: sans-serif;
+	background:  #fff;	
 }
 
 header {
@@ -24,26 +25,90 @@ header ul li {
 header ul li a {
 	text-decoration: none;
 	color: #FFF;
-}
+}	
 
 .fRight {
 	float: right;
-	padding-right: 40px;
+	padding-right: 60px;
 	vertical-align: center;
 	padding-top: 20px;
 }
 
 
 #middle {
-	width: 80%;
-	height: 800px;
-	background: #ee2233;
+	width: 90%;
+	height: 1000px;
+	background: #ffe6cc;
 	margin: 0 auto;
-	padding-top: 120px;
+	padding-top: 40px;
+}
+
+#nav-products {
+	width: 100%;
+	height: 8%;
+	background: #262626;
+}
+
+#nav-products ul {
+	text-align: center;
+}
+
+#nav-products ul li {
+	display: inline-block;
+	list-style: none;
+	margin-top: 8px;
+	padding: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#nav-products ul li a {
+	text-decoration: none;
+	color: #ff8000;
+}
+
+#nav-products ul li:hover{ 
+	background: #404040;
+}
+
+#li-search {
+	background-color: #404040;
+	border-radius: 5px;
+	padding: 10px !important;
+}
+
+#txtBusca {
+	background-color: #404040;
+	color: #fff;
+	padding-left: 5px;
+	font-size: 18px;
+	border: none;
+	height: 32px;
+	width: 226px;
+}
+
+#btnBusca {
+	vertical-align: middle;
+}
+
+#div-imgs {
+	width: 100%;
+	height: 80%;
+	margin: 0 auto;
+	margin-top: 3%;
+	display: inline-block;
+	text-align: center;
+}
+
+#div-imgs p {
+	padding: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-style: oblique;
 }
 
 footer {
-	background: #cccccc;
+	background: #ff8000;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
